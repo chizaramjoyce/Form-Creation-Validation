@@ -9,7 +9,7 @@ async function fetchUserData() {
 
         dataContainer.innerHTML = '';
 
-        const userList = document.createElement('UL')
+        const userList = document.createElement('ul')
 
         users.forEach((user) => {
             const li = document.createElement('LI');
